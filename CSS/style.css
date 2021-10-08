@@ -1,0 +1,91 @@
+body{
+    background: url(/images/bg-pattern-desktop.svg);
+    font-size: 16px;
+}
+big{
+    font-size: 2.3rem;
+}
+p{
+    margin-top: 36px;
+}
+.main{
+    display: flex;
+}
+#pic{
+    display: none;
+}
+.content{
+    padding: 16px 86px;
+}
+#logo{
+    margin-top: 22px;
+    margin-bottom: 75px;
+}
+#entry{
+    position: relative;
+}
+#entry input{
+    margin: 0px 0px;
+    padding: 6px;
+    border-radius: 50px;
+    width: 358px;
+    height: 26px;
+    float: left;
+    background: transparent;
+    color: hsl(0, 6%, 24%);
+    overflow: hidden;
+}
+.arrow-container{
+    height: 200px;
+    width: 56px;
+    position: relative;
+    top: -40.9px;
+    left: 375px;
+}
+#arrow{
+    height: 2rem;
+    width: 2.2rem;
+    background-color: hsl(0, 36%, 70%);
+    border-radius: 25px;
+    position: relative;
+    top: 1px;
+    right: 71px;
+    padding: 4px 17px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:767px) {
+    .main{
+        display: grid;
+        overflow: hidden;
+    }
+    #pic{
+        display: block;
+    }
+    .content big ,p {
+    margin: 90px 0px;
+        top: -191px;
+    left: 305px;
+
+    }
+
+   .arrow-container{
+      
+        right: 50px;
+        
+    }
+    .img{
+        display: none;
+    }
+    .content{
+        padding: 0px;
+    }
+}
+
+/* @media  screen and (min) {
+    
+} */
+
+/* minwidth  768px  */
+/* min width 1300px  */
+/* max width 767px */
